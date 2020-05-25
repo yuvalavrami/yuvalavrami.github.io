@@ -1,0 +1,9 @@
+# Favorite Star Wars
+
+This project generates a website in which all first 6 films of the Star Wars' Skywalker saga are presented,
+and the user has the ability to mark any of them as favorites.
+Favorites are saved between sessions using a cookies file.
+
+To open the web page:
+make sure all files are saved in the same folder.
+Open 'index.html' using browser.

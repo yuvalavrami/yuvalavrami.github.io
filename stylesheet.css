@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #0E0E0E;
+}
+
+#main-container {
+    margin: auto;
+    width: 80%;
+}
+#page-header {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    color: #FFD238;
+}
+
+.item-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    vertical-align: top;
+    min-height: 200px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #313131;
+    width: 25%;
+    /*used to disable text selection upon double click*/
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.film-poster {
+    max-height:100%;
+    max-width:100%;
+}
+
+.film-header {
+    float: left;
+    min-height: 50px;
+}
+
+.film-details {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.is-favorite {
+    margin-right: 20px;
+    color: #FFD238;
+}
+
+.is-favorite:hover {
+    color: #FFE690;
+}
+
+.category-header {
+    font-size: 2em;
+    font-weight: 800;
+}
