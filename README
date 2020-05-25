@@ -12,3 +12,8 @@ Favorites are saved between sessions using a cookies file.
 
 To open the web page:
 go to: https://github.com/yuvalavrami/yuvalavrami.github.io
+to open the site locally, save all files in one folder and run 'index.html' using a browser.
+accessing the web page through a browser locally does not enable saving cookies, 
+so the saved favorited functionality won't work that way. 
+To solve this issue either (a) open the web page through the provided link (https://github.com/yuvalavrami/yuvalavrami.github.io)
+or open the files through a code editor (e.g websorm, vscode etc.)
